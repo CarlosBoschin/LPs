@@ -497,7 +497,7 @@ ul.custom-list li {
 
   .banner {
     padding: 0 100px;
-    min-height: 60vh;
+    min-height: 100vh;
   }
 
   .form-card {
@@ -590,7 +590,7 @@ ul.custom-list li {
 
   .banner {
     padding: 15px;
-    min-height: 100vh;
+    min-height: 120vh;
   }
 
   .form-card {
