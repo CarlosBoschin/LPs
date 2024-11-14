@@ -116,6 +116,7 @@ ul.custom-list li {
 
 .banner {
   width: 100%;
+  min-height: 100vh;
   background-image: url('../assets/images/v1_148.png');
   background-size: cover;
   background-position: center;
@@ -151,10 +152,7 @@ ul.custom-list li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: -40px;
   width: 80%;
-}
-
-.form-card form {
-  width: 100%;
+  height: auto;
 }
 
 .form-control {
@@ -209,11 +207,10 @@ ul.custom-list li {
 }
 
 .text-banner {
-  margin-top: 11rem;
   padding: 20px;
 }
 
-@media (min-width: 1321px) {
+@media (min-width: 1721px) {
   h1 {
     font-weight: 700;
     font-size: 70px;
@@ -244,12 +241,10 @@ ul.custom-list li {
   }
 
   .banner {
-    padding: 0 150px;
-    min-height: 100vh;
+    padding: 0 200px;
   }
 
   .form-card {
-    margin-top: -25px;
     padding: 30px;
   }
 
@@ -273,7 +268,7 @@ ul.custom-list li {
   }
 
   .text-banner {
-    margin-top: 14rem;
+    margin-top: 4rem;
   }
 
   .content {
@@ -287,7 +282,7 @@ ul.custom-list li {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1320px) {
+@media (min-width: 1200px) and (max-width: 1720px) {
   h1 {
     font-size: 60px;
     font-weight: bolder;
@@ -325,12 +320,11 @@ ul.custom-list li {
 
   .banner {
     padding: 0 100px;
-    min-height: 100vh;
   }
 
   .form-card {
     padding: 20px;
-    margin-top: -120px;
+    margin-top: -80px;
   }
 
   .btn-custom {
@@ -415,7 +409,6 @@ ul.custom-list li {
 
   .banner {
     padding: 0 100px;
-    min-height: 60vh;
   }
 
   .form-card {
@@ -497,7 +490,6 @@ ul.custom-list li {
 
   .banner {
     padding: 0 100px;
-    min-height: 100vh;
   }
 
   .form-card {
@@ -590,7 +582,6 @@ ul.custom-list li {
 
   .banner {
     padding: 15px;
-    min-height: 120vh;
   }
 
   .form-card {
