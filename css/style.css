@@ -284,12 +284,12 @@ ul.custom-list li {
 
 @media (min-width: 1200px) and (max-width: 1720px) {
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
   }
 
   h2 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bolder;
   }
 
@@ -324,7 +324,7 @@ ul.custom-list li {
 
   .form-card {
     padding: 20px;
-    margin-top: -80px;
+    margin-top: -100px;
   }
 
   .btn-custom {
@@ -553,13 +553,13 @@ ul.custom-list li {
   h1 {
     margin-left: 60px;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
   }
   
   h2 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 2.5rem;
   }
@@ -572,7 +572,7 @@ ul.custom-list li {
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -581,11 +581,11 @@ ul.custom-list li {
   }
 
   .banner {
-    padding: 15px;
+    padding: 25px;
   }
 
   .form-card {
-    margin-top: -2.1rem;
+    margin-top: -3rem;
     padding: 10px;
   }
 
