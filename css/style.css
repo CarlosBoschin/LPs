@@ -373,6 +373,10 @@ ul.custom-list-middle {
     text-align: center;
   }
 
+  .sub-text-title {
+    margin-top: 6rem;
+  }
+
   ul.custom-list {
     padding-left: 25px;
   }
@@ -440,7 +444,7 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   .content {
