@@ -350,7 +350,7 @@ ul.custom-list-middle {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1720px) {
+@media (min-width: 1301px) and (max-width: 1720px) {
   h1 {
     font-weight: 700;
     font-size: 60px;
@@ -394,7 +394,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -25px;
+    margin-top: -50px;
   }
 
   .btn-custom {
@@ -448,7 +448,7 @@ ul.custom-list-middle {
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1300px) {
   h1 {
     margin-left: 15px;
     font-weight: 700;
