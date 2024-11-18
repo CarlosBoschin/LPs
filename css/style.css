@@ -372,12 +372,12 @@ ul.custom-list-middle {
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
   }
 
   .sub-text-title {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
   iframe {
@@ -394,7 +394,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -40px;
+    margin-top: -25px;
   }
 
   .btn-custom {
@@ -425,7 +425,7 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: .8rem;
+    margin-top: 0.5rem;
   }
 
   .content {
@@ -435,7 +435,7 @@ ul.custom-list-middle {
   }
 
   ul.custom-list-top {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .form-card-middle {
