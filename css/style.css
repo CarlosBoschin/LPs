@@ -380,28 +380,6 @@ ul.custom-list-middle {
     margin-top: 6rem;
   }
 
-  ul.custom-list {
-    padding-left: 25px;
-  }
-  
-  ul.custom-list li {
-    margin-bottom: 5px;
-    font-size: 15px;
-  }
-
-  ul.custom-list-top {
-    list-style-type: disc;
-    color: #fff;
-    padding: 25px;
-    font-size: 18px;
-  }
-  
-  ul.custom-list-middle {
-    list-style-type: disc;
-    padding-left: 25px;
-    color: rgb(142, 144, 148);
-  }
-
   iframe {
     height: 300px;
   }
@@ -416,7 +394,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -65px;
+    margin-top: -40px;
   }
 
   .btn-custom {
@@ -447,13 +425,17 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: 1rem;
+    margin-top: .8rem;
   }
 
   .content {
     flex-grow: 1;
     padding-left: 150px;
     padding-right: 150px;
+  }
+
+  ul.custom-list-top {
+    font-size: 20px;
   }
 
   .form-card-middle {
