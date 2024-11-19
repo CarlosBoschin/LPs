@@ -39,9 +39,18 @@ iframe {
 }
 
 h1, h2, h3, h4 {
-  color: rgba(255, 255, 255, 1);
+  color: #00699c;
   font-family: 'Circular Std Book', Arial, sans-serif;
   margin: 0;
+}
+
+b {
+  color: #00699c;
+  font-weight: bold;
+}
+
+p {
+  color: #1e1e1e;
 }
 
 ul.custom-list {
@@ -56,9 +65,7 @@ ul.custom-list li {
 }
 
 ul.custom-list-top {
-  list-style-type: disc;
-  color: #fff;
-  padding-left: 35px;
+  color: #00699c;
 }
 
 ul.custom-list-middle {
@@ -70,14 +77,14 @@ ul.custom-list-middle {
 
 .title-main {
   padding: 30px; 
-  margin-left: -35px;
+  margin-left: -15px;
   margin-top: 10px;
 }
 
 .subtitle-blue {
   font-family: 'Circular Std Black', Arial, sans-serif;
   text-align: center;
-  color: #08446c;
+  color: #00699c;
   font-size: 2rem;
   font-weight: Bolder;
 }
@@ -85,7 +92,7 @@ ul.custom-list-middle {
 .subtitle-blue2 {
   font-family: 'Circular Std Book', Arial, sans-serif;
   text-align: center;
-  color: #08446c;
+  color: #00699c;
   font-size: 2rem;
   font-weight: normal;
 }
@@ -93,7 +100,7 @@ ul.custom-list-middle {
 .subtitle-blue3 {
   font-family: 'Circular Std Book', Arial, sans-serif;
   text-align: left;
-  color: #08446c;
+  color: #00699c;
   font-size: 1.6rem;
   font-weight: normal;
 }
@@ -159,7 +166,7 @@ ul.custom-list-middle {
   width: 100%;
   opacity: 2;
   min-height: 100vh;
-  background-image: url('../assets/images/banner.png');
+  background-image: url('../assets/images/banner.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,19 +174,6 @@ ul.custom-list-middle {
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
-}
-
-.banner2::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-bottom-left-radius: 45px;
-  border-bottom-right-radius: 45px;
-  z-index: 1;
 }
 
 .banner2 > * {
@@ -204,7 +198,7 @@ ul.custom-list-middle {
 }
 
 .btn-custom {
-  background-color: #08446c;
+  background-color: #00699c;
   color: #ffffff;
   border-radius: 40px;
   padding: 10px 15px;
@@ -215,7 +209,7 @@ ul.custom-list-middle {
 
 .btn-custom:hover {
   background-color: #fff;
-  color: #08446c;
+  color: #00699c;
 }
 
 .btn-custom2 {
@@ -231,12 +225,12 @@ ul.custom-list-middle {
 }
 
 .btn-custom2:hover {
-  background-color: #08446c;
+  background-color: #00699c;
   color: #fff;
 }
 
 .footer {
-  background-color: #08446c;
+  background-color: #00699c;
   padding: 20px 0;
   margin-top: auto;
   text-align: center;
@@ -275,11 +269,19 @@ ul.custom-list-middle {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
+  }
+
+  p {
+    font-size: 20px;
   }
 
   .sub-text-title {
-    margin-top: 10rem;
+    margin-top: 4rem;
+  }
+
+  .margin-subtitle {
+    margin-left: -30px;
   }
 
   iframe {
@@ -366,14 +368,18 @@ ul.custom-list-middle {
   h3 {
     font-size: 25px;
     margin-top: 15px;
-    text-align: right;
+    text-align: left;
   }
 
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
     font-size: 19px;
-    text-align: center;
+    text-align: left;
+  }
+
+  p {
+    font-size: 18px;
   }
 
   .sub-text-title {
@@ -458,14 +464,14 @@ ul.custom-list-middle {
   h2 {
     font-weight: 700;
     font-size: 45px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
   }
   
   h3 {
     margin-top: -30px;
     font-size: 28px;
-    text-align: center;
+    text-align: left;
   }
   
   h4 {
@@ -473,7 +479,11 @@ ul.custom-list-middle {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+  }
+
+  p {
+    font-size: 17px;
   }
   
   ul.custom-list {
@@ -483,12 +493,6 @@ ul.custom-list-middle {
   ul.custom-list li {
     margin-bottom: 5px;
     font-size: 15px;
-  }
-
-  ul.custom-list-top {
-    list-style-type: disc;
-    color: #fff;
-    padding: 25px;
   }
   
   ul.custom-list-middle {
@@ -589,6 +593,10 @@ ul.custom-list-middle {
     text-align: center;
   }
 
+  p {
+    font-size: 16px;
+  }
+
   .banner {
     padding: 0 100px;
   }
@@ -675,27 +683,31 @@ ul.custom-list-middle {
   h1 {
     margin-left: 60px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
   
   h2 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 2.5rem;
   }
   
   h3 {
-    font-size: 28px;
+    font-size: 15px;
     text-align: center;
   }
   
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
+  }
+
+  p {
+    font-size: 15px;
   }
 
   .title-main {
@@ -797,8 +809,6 @@ ul.custom-list-middle {
   }
 
   ul.custom-list-top {
-    list-style-type: disc;
-    color: #fff;
     padding: 25px;
   }
   
