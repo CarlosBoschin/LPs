@@ -166,7 +166,6 @@ ul.custom-list-middle {
 .banner2 {
   width: 100%;
   opacity: 2;
-  min-height: 100vh;
   background-image: url('../assets/images/banner.jpg');
   background-size: cover;
   background-position: center;
@@ -175,11 +174,15 @@ ul.custom-list-middle {
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+  min-height: auto; /* Remover o valor fixo de altura e permitir que o banner cresça conforme o conteúdo */
+  display: flex; /* Usar flexbox para tornar o banner responsivo e adaptável ao conteúdo */
+  align-items: center;
 }
 
 .banner2 > * {
   position: relative;
   z-index: 2;
+  width: 100%;
 }
 
 .form-card {
@@ -194,6 +197,14 @@ ul.custom-list-middle {
   border-radius: 10px;
   box-shadow: none;
   margin-bottom: 10px;
+}
+
+.label-min2 {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #76777a;
+  font-size: 10px;
+  text-align: center;
 }
 
 .btn-custom {
@@ -296,7 +307,7 @@ ul.custom-list-middle {
   }
 
   .form-card {
-    margin-top: 1rem;
+    margin-top: -1rem;
     padding: 30px;
   }
 
@@ -309,14 +320,6 @@ ul.custom-list-middle {
     margin-right: 12px;
     color: #76777a;
     font-size: 0.8rem;
-  }
-
-  .label-min2 {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #76777a;
-    font-size: 0.8rem;
-    text-align: center;
   }
 
   .label-max {
@@ -412,7 +415,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -70px;
+    margin-top: -1rem;
   }
 
   .btn-custom {
@@ -424,14 +427,6 @@ ul.custom-list-middle {
     margin-right: 12px;
     color: #76777a;
     font-size: 0.7rem;
-  }
-
-  .label-min2 {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #76777a;
-    font-size: 0.8rem;
-    text-align: center;
   }
 
   .label-max {
@@ -527,7 +522,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -120px;
+    margin-top: -6rem
   }
 
   .btn-custom {
@@ -539,14 +534,6 @@ ul.custom-list-middle {
     margin-right: 12px;
     color: #76777a;
     font-size: 0.7rem;
-  }
-
-  .label-min2 {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #76777a;
-    font-size: 0.8rem;
-    text-align: center;
   }
 
   .label-max {
@@ -656,14 +643,6 @@ ul.custom-list-middle {
     font-size: 0.7rem;
   }
 
-  .label-min2 {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #76777a;
-    font-size: 0.8rem;
-    text-align: center;
-  }
-
   .label-max {
     text-align: center;
     font-size: 1rem;
@@ -770,14 +749,6 @@ ul.custom-list-middle {
     margin-right: 12px;
     color: #76777a;
     font-size: 0.7rem;
-  }
-
-  .label-min2 {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #76777a;
-    font-size: 0.8rem;
-    text-align: center;
   }
 
   .label-max {
@@ -892,14 +863,6 @@ ul.custom-list-middle {
     margin-right: 12px;
     color: #76777a;
     font-size: 0.4rem;
-  }
-
-  .label-min2 {
-    margin-left: 12px;
-    margin-right: 12px;
-    color: #76777a;
-    font-size: 0.8rem;
-    text-align: center;
   }
 
   .label-max {
