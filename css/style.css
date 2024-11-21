@@ -349,10 +349,10 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
-  .form-card-middle {
+  /*.form-card-middle {
     visibility: hidden;
     display: none;
-  }
+  }*/
 
   .topic-side {
     margin-top: 2%;
@@ -456,10 +456,10 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
-  .form-card-middle {
+  /*.form-card-middle {
     visibility: hidden;
     display: none;
-  }
+  }*/
 
   .topic-side {
     margin-top: -5px;
@@ -563,10 +563,10 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
-  .form-card-middle {
+  /*.form-card-middle {
     visibility: hidden;
     display: none;
-  }
+  }*/
 
   .topic-side {
     margin-top: -5px;
@@ -671,10 +671,10 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
-  .form-card-middle {
+  /*.form-card-middle {
     visibility: hidden;
     display: none;
-  }
+  }*/
 
   .topic-side {
     margin-top: -5px;
@@ -779,10 +779,10 @@ ul.custom-list-middle {
     font-size: 15px;
   }
 
-  .form-card-middle {
+  /*.form-card-middle {
     visibility: hidden;
     display: none;
-  }
+  }*/
 
   .topic-side {
     margin-top: -5px;
@@ -842,12 +842,9 @@ ul.custom-list-middle {
 
   .banner2 {
     padding: 25px;
-    min-height: 100vh;
-    display: block;
   }
 
   .form-card {
-    visibility: hidden;
     margin-top: -3rem;
     padding: 10px;
   }
@@ -910,10 +907,10 @@ ul.custom-list-middle {
     margin-top: 1.5rem;
   }
 
-  .form-card-middle {
+  /*.form-card-middle {
     visibility: visible;
     display: block;
-  }
+  }*/
   
   .topic-side {
     margin-top: 2%;
