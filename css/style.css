@@ -842,6 +842,8 @@ ul.custom-list-middle {
 
   .banner2 {
     padding: 25px;
+    min-height: 100vh;
+    display: block;
   }
 
   .form-card {
