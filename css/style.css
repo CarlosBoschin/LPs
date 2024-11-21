@@ -284,6 +284,10 @@ ul.custom-list-middle {
     margin-left: -30px;
   }
 
+  .margin-subtitle2 {
+    margin-left: -30px;
+  }
+
   iframe {
     height: 350px;
   }
@@ -355,18 +359,18 @@ ul.custom-list-middle {
 @media (min-width: 1301px) and (max-width: 1720px) {
   h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
   }
 
   h2 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 15px;
     text-align: left;
   }
@@ -374,7 +378,7 @@ ul.custom-list-middle {
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 15px;
     text-align: left;
   }
 
@@ -383,7 +387,16 @@ ul.custom-list-middle {
   }
 
   .sub-text-title {
-    margin-top: 4rem;
+    margin-top: 1rem;
+  }
+
+  .margin-subtitle {
+    margin-left: -0px;
+  }
+
+  .margin-subtitle2 {
+    margin-top: 15px;
+    margin-left: -30px;
   }
 
   iframe {
@@ -400,7 +413,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -50px;
+    margin-top: -70px;
   }
 
   .btn-custom {
@@ -431,7 +444,7 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: 0.5rem;
+    margin-top: -1rem;
   }
 
   .content {
