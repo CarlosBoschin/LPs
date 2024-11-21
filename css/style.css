@@ -382,12 +382,12 @@ ul.custom-list-middle {
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
   }
 
   p {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .sub-text-title {
@@ -498,12 +498,12 @@ ul.custom-list-middle {
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     text-align: left;
   }
 
   p {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .sub-text-title {
@@ -533,7 +533,7 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -100px;
+    margin-top: -120px;
   }
 
   .btn-custom {
@@ -564,7 +564,7 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: -3rem;
+    margin-top: -2rem;
   }
 
   .content {
