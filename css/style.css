@@ -189,7 +189,6 @@ ul.custom-list-middle {
   background-color: #e1dfde;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 80%;
   height: auto;
 }
 
@@ -309,6 +308,7 @@ ul.custom-list-middle {
   .form-card {
     margin-top: -1rem;
     padding: 30px;
+    width: 80%;
   }
 
   .btn-custom {
@@ -328,10 +328,6 @@ ul.custom-list-middle {
   
   .label-max2 {
     font-size: 20px;
-  }
-
-  .text-banner {
-    margin-top: 3rem;
   }
 
   .content {
@@ -416,6 +412,7 @@ ul.custom-list-middle {
   .form-card {
     padding: 20px;
     margin-top: -1rem;
+    width: 90%;
   }
 
   .btn-custom {
@@ -522,7 +519,8 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -6rem
+    margin-top: -6rem;
+    width: 90%;
   }
 
   .btn-custom {
@@ -630,6 +628,7 @@ ul.custom-list-middle {
   .form-card {
     padding: 20px;
     margin-top: -70px;
+    width: 90%;
   }
 
   .btn-custom {
@@ -762,6 +761,8 @@ ul.custom-list-middle {
 
   .text-banner {
     margin-top: .8rem;
+    padding: 10px;
+    width: 100%;
   }
 
   .content {
@@ -845,6 +846,7 @@ ul.custom-list-middle {
   }
 
   .form-card {
+    width: 100%;
     margin-top: -3rem;
     padding: 10px;
   }
@@ -875,6 +877,8 @@ ul.custom-list-middle {
 
   .text-banner {
     margin-top: -1rem;
+    padding: 10px;
+    width: 100%;
   }
 
   .content {
@@ -896,7 +900,7 @@ ul.custom-list-middle {
     text-align: center;
   }
 
-  .form-card2 {
+  /*.form-card2 {
     background-color: #e1dfde;
     border-radius: 15px;
     padding: 10px;
@@ -905,7 +909,7 @@ ul.custom-list-middle {
     width: 90%;
     height: auto;
     margin-top: 1.5rem;
-  }
+  }*/
 
   /*.form-card-middle {
     visibility: visible;
