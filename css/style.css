@@ -61,7 +61,6 @@ ul.custom-list {
 
 ul.custom-list li {
   margin-bottom: 5px;
-  font-size: 20px;
 }
 
 ul.custom-list-top {
@@ -346,6 +345,11 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
+  .custom-list li{
+    text-align: left;
+    font-size: 20px;
+  }
+
   .form-card-middle {
     visibility: hidden;
     display: none;
@@ -457,6 +461,11 @@ ul.custom-list-middle {
     font-size: 17px;
   }
 
+  .custom-list li{
+    text-align: left;
+    font-size: 20px;
+  }
+
   .form-card-middle {
     visibility: hidden;
     display: none;
@@ -469,51 +478,49 @@ ul.custom-list-middle {
 
 @media (min-width: 1024px) and (max-width: 1300px) {
   h1 {
-    margin-left: 15px;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 40px;
+    text-align: left;
   }
 
   h2 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     text-align: left;
-    margin-bottom: 2rem;
   }
   
   h3 {
-    margin-top: -30px;
-    font-size: 28px;
+    font-size: 20px;
+    margin-top: 15px;
     text-align: left;
   }
   
   h4 {
-    margin-top: -20px;
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
   }
 
   p {
-    font-size: 17px;
+    font-size: 16px;
   }
-  
-  ul.custom-list {
-    padding-left: 25px;
+
+  .sub-text-title {
+    margin-top: 1rem;
   }
-  
-  ul.custom-list li {
-    margin-bottom: 5px;
-    font-size: 15px;
+
+  .margin-subtitle {
+    margin-left: -0px;
   }
-  
-  ul.custom-list-middle {
-    list-style-type: disc;
-    padding-left: 25px;
-    color: rgb(142, 144, 148);
-    font-size: 1.2rem;
-    font-weight: 100;
+
+  .margin-subtitle2 {
+    margin-top: 15px;
+    margin-left: -30px;
+  }
+
+  iframe {
+    height: 300px;
   }
 
   .banner {
@@ -526,15 +533,11 @@ ul.custom-list-middle {
 
   .form-card {
     padding: 20px;
-    margin-top: -40px;
+    margin-top: -70px;
   }
 
   .btn-custom {
-    font-size: 12px;
-  }
-
-  iframe {
-    height: 250px;
+    font-size: 14px;
   }
 
   .label-min {
@@ -571,43 +574,70 @@ ul.custom-list-middle {
     padding-right: 150px;
   }
 
+  ul.custom-list-top {
+    font-size: 15px;
+  }
+
+  .custom-list li{
+    text-align: left;
+    font-size: 20px;
+  }
+
   .form-card-middle {
     visibility: hidden;
     display: none;
+  }
+
+  .topic-side {
+    margin-top: -5px;
   }
 }
 
 @media (max-width: 768px) {
   h1 {
-    margin-left: 60px;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
   }
-  
+
   h2 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
-    margin-bottom: 2rem;
   }
   
   h3 {
-    margin-top: -30px;
-    font-size: 28px;
+    font-size: 20px;
+    margin-top: 15px;
     text-align: center;
   }
   
   h4 {
-    margin-top: -20px;
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
   }
 
   p {
     font-size: 16px;
+  }
+
+  .sub-text-title {
+    margin-top: 1rem;
+  }
+
+  .margin-subtitle {
+    margin-left: -0px;
+  }
+
+  .margin-subtitle2 {
+    margin-top: 15px;
+    margin-left: -30px;
+  }
+
+  iframe {
+    height: 300px;
   }
 
   .banner {
@@ -619,13 +649,8 @@ ul.custom-list-middle {
   }
 
   .form-card {
-    visibility: hidden;
-    margin-top: -30px;
-    padding: 10px;
-  }
-
-  .form-control {
-    font-size: 14px;
+    padding: 20px;
+    margin-top: -70px;
   }
 
   .btn-custom {
@@ -649,15 +674,11 @@ ul.custom-list-middle {
 
   .label-max {
     text-align: center;
-    font-size: 1.1rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 1rem;
   }
   
   .label-max2 {
-    font-size: 1rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: .9rem;
   }
 
   .text-banner {
@@ -666,35 +687,32 @@ ul.custom-list-middle {
 
   .content {
     flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
-  .form-card2 {
-    background-color: #e1dfde;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: -40px;
-    width: 90%;
-    height: auto;
-    margin-top: 1.5rem;
+  .custom-list li{
+    text-align: left;
+    font-size: 18px;
+  }
+
+  ul.custom-list-top {
+    font-size: 15px;
   }
 
   .form-card-middle {
-    visibility: visible;
-    display: block;
+    visibility: hidden;
+    display: none;
   }
 
-  .title-main {
-    text-align: center;
-    color: green;
+  .topic-side {
+    margin-top: -5px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    margin-left: 60px;
+    margin-left: 30px;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
@@ -708,7 +726,7 @@ ul.custom-list-middle {
   }
   
   h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
   }
   
@@ -721,6 +739,18 @@ ul.custom-list-middle {
 
   p {
     font-size: 15px;
+  }
+
+  .sub-text-title {
+    margin-top: 1rem;
+  }
+
+  .margin-subtitle {
+    margin-left: -0px;
+  }
+
+  .margin-subtitle2 {
+    margin-left: 0px;
   }
 
   .title-main {
@@ -821,6 +851,12 @@ ul.custom-list-middle {
     text-align: left;
   }
 
+  .custom-list li{
+    padding-left: 25px;
+    text-align: left;
+    font-size: .9rem;
+  }
+
   ul.custom-list-top {
     padding: 25px;
   }
@@ -828,7 +864,7 @@ ul.custom-list-middle {
   ul.custom-list-middle {
     list-style-type: disc;
     padding-left: 25px;
-    color: rgb(142, 144, 148);
+    color: #76777a;
     font-size: .9rem;
     font-weight: 100;
   }
