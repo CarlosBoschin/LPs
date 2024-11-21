@@ -73,7 +73,6 @@ ul.custom-list-middle {
   list-style-type: disc;
   padding-left: 25px;
   color: #76777a;
-  font-size: 20px;
 }
 
 .title-main {
@@ -345,6 +344,11 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
+  ul.custom-list-middle {
+    text-align: left;
+    font-size: 20px;
+  }
+
   /*.form-card-middle {
     visibility: hidden;
     display: none;
@@ -453,6 +457,11 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
+  ul.custom-list-middle {
+    text-align: left;
+    font-size: 20px;
+  }
+
   /*.form-card-middle {
     visibility: hidden;
     display: none;
@@ -557,6 +566,11 @@ ul.custom-list-middle {
   }
 
   .custom-list li{
+    text-align: left;
+    font-size: 20px;
+  }
+
+  ul.custom-list-middle {
     text-align: left;
     font-size: 20px;
   }
@@ -670,6 +684,11 @@ ul.custom-list-middle {
     font-size: 20px;
   }
 
+  ul.custom-list-middle {
+    text-align: left;
+    font-size: 20px;
+  }
+
   /*.form-card-middle {
     visibility: hidden;
     display: none;
@@ -776,6 +795,11 @@ ul.custom-list-middle {
   }
 
   ul.custom-list-top {
+    font-size: 15px;
+  }
+
+  ul.custom-list-middle {
+    text-align: left;
     font-size: 15px;
   }
 
@@ -930,15 +954,16 @@ ul.custom-list-middle {
     font-size: .9rem;
   }
 
+  ul.custom-list-middle {
+    text-align: left;
+    font-size: .9rem;
+  }
+
   ul.custom-list-top {
     padding: 25px;
   }
   
   ul.custom-list-middle {
-    list-style-type: disc;
-    padding-left: 25px;
-    color: #76777a;
     font-size: .9rem;
-    font-weight: 100;
   }
 }
