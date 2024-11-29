@@ -2,7 +2,7 @@
   font-family: 'Circular Std Book';
   src: url('../assets/fonts/CircularStd-Book.woff2') format('woff2'),
        url('../assets/fonts/CircularStd-Book.woff') format('woff');
-  font-weight: 500;
+  font-weight: lighter;
   font-style: normal;
 }
 
@@ -34,8 +34,6 @@ iframe {
 
 .content {
   flex-grow: 1;
-  padding-left: 80px;
-  padding-right: 80px;
 }
 
 h1, h2, h3, h4 {
@@ -65,7 +63,7 @@ ul.custom-list li {
 }
 
 ul.custom-list-top {
-  color: #00699c;
+  color: #c68d27;
 }
 
 ul.custom-list-middle {
@@ -75,7 +73,7 @@ ul.custom-list-middle {
 }
 
 .title-main {
-  padding: 30px; 
+  padding: 10px; 
   margin-left: -15px;
   margin-top: 10px;
   color: #fff;
@@ -84,23 +82,23 @@ ul.custom-list-middle {
 .subtitle-blue {
   font-family: 'Circular Std Black', Arial, sans-serif;
   text-align: center;
-  color: #00699c;
+  color: #c68d27;
   font-size: 2rem;
   font-weight: Bolder;
 }
 
 .subtitle-blue2 {
   font-family: 'Circular Std Book', Arial, sans-serif;
-  text-align: center;
-  color: #00699c;
-  font-size: 2rem;
-  font-weight: normal;
+  text-align: left;
+  color: #c68d27;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .subtitle-blue3 {
   font-family: 'Circular Std Book', Arial, sans-serif;
   text-align: left;
-  color: #00699c;
+  color: #c68d27;
   font-size: 1.6rem;
   font-weight: normal;
 }
@@ -113,16 +111,12 @@ ul.custom-list-middle {
 }
 
 .label-max {
-  padding-left: 60px;
-  padding-right: 60px;
   text-align: center;
   color: #747579;
   font-weight: Bold;
 }
 
 .label-max2 {
-  padding-left: 60px;
-  padding-right: 60px;
   color: #76777a;
   text-align: left;
 }
@@ -206,7 +200,7 @@ ul.custom-list-middle {
 }
 
 .btn-custom {
-  background-color: #00699c;
+  background-color: #c68d27;
   color: #ffffff;
   border-radius: 40px;
   padding: 10px 15px;
@@ -217,15 +211,15 @@ ul.custom-list-middle {
 
 .btn-custom:hover {
   background-color: #fff;
-  color: #00699c;
+  color: #c68d27;
 }
 
 .btn-custom2 {
-  background-color: #76777a;
+  background-color: #c68d27;
   color: #ffffff;
   border-radius: 40px;
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 16px;
   width: 100%;
   border: none;
   max-width: 50%;
@@ -233,12 +227,12 @@ ul.custom-list-middle {
 }
 
 .btn-custom2:hover {
-  background-color: #00699c;
+  background-color: #76777a;
   color: #fff;
 }
 
 .footer {
-  background-color: #00699c;
+  background-color: #08446c;
   padding: 20px 0;
   margin-top: auto;
   text-align: center;
@@ -257,19 +251,18 @@ ul.custom-list-middle {
 @media (min-width: 1701px) {
   h1 {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 90px;
     text-align: left;
   }
   
   h2 {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 90px;
     text-align: left;
   }
   
   h3 {
-    font-size: 28px;
-    text-align: right;
+    font-size: 29px;
     margin-top: 15px;
   }
   
@@ -285,11 +278,19 @@ ul.custom-list-middle {
   }
 
   .sub-text-title {
-    margin-top: 4rem;
+    margin-top: .8rem;
+    text-align: center;
   }
 
   .margin-subtitle {
     margin-left: -30px;
+    text-align: right;
+    margin-top: 12.4rem;
+  }
+
+  .margin-subtitle2 {
+    margin-top: 12rem;
+    margin-left: -10px;
   }
 
   iframe {
@@ -307,7 +308,8 @@ ul.custom-list-middle {
   .form-card {
     margin-top: -1.5rem;
     padding: 30px;
-    width: 80%;
+    width: 95%;
+    margin-bottom: 80px;
   }
 
   .btn-custom {
@@ -322,17 +324,21 @@ ul.custom-list-middle {
   }
 
   .label-max {
-    font-size: 30px;
+    font-size: 40px;
   }
   
   .label-max2 {
     font-size: 20px;
+    font-weight: lighter;
   }
 
+  .text-banner {
+    margin-top: -2rem;
+  }
+  
   .content {
-    flex-grow: 1;
-    padding-left: 280px;
-    padding-right: 280px;
+    padding-left: 230px;
+    padding-right: 230px;
   }
 
   ul.custom-list-top {
@@ -359,29 +365,28 @@ ul.custom-list-middle {
   }
 }
 
-@media (min-width: 1521px) and (max-width: 1700px) {
+@media (max-width: 1700px) {
   h1 {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 80px;
     text-align: left;
   }
 
   h2 {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 80px;
     text-align: left;
   }
 
   h3 {
     font-size: 22px;
     margin-top: 15px;
-    text-align: left;
   }
 
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 23px;
     text-align: left;
   }
 
@@ -391,14 +396,18 @@ ul.custom-list-middle {
 
   .sub-text-title {
     margin-top: 3rem;
+    text-align: center;
   }
 
   .margin-subtitle {
     margin-left: -0px;
+    text-align: right;
+    margin-top: 12.4rem;
   }
 
   .margin-subtitle2 {
-    margin-top: 15px;
+    margin-top: 12rem;
+    margin-left: -10px;
   }
 
   iframe {
@@ -416,11 +425,12 @@ ul.custom-list-middle {
   .form-card {
     padding: 20px;
     margin-top: -1.5rem;
-    width: 90%;
+    width: 95%;
+    margin-bottom: 80px;
   }
 
   .btn-custom {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .label-min {
@@ -436,6 +446,7 @@ ul.custom-list-middle {
   
   .label-max2 {
     font-size: 20px;
+    font-weight: lighter;
   }
 
   .text-banner {
@@ -443,9 +454,8 @@ ul.custom-list-middle {
   }
 
   .content {
-    flex-grow: 1;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 230px;
+    padding-right: 230px;
   }
 
   ul.custom-list-top {
@@ -472,46 +482,49 @@ ul.custom-list-middle {
   }
 }
 
-@media (min-width: 1301px) and (max-width: 1520px) {
+@media (max-width: 1520px) {
   h1 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 70px;
     text-align: left;
   }
 
   h2 {
     font-weight: 700;
-    font-size: 45px;
+    font-size:70px;
     text-align: left;
   }
 
   h3 {
     font-size: 22px;
     margin-top: 13px;
-    text-align: left;
   }
 
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
   }
 
   p {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .sub-text-title {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    text-align: center;
   }
 
   .margin-subtitle {
     margin-left: -0px;
+    text-align: right;
+    margin-top: 10rem;
   }
 
   .margin-subtitle2 {
-    margin-top: 15px;
+    margin-top: 10rem;
+    margin-left: -10px;
   }
 
   iframe {
@@ -529,7 +542,8 @@ ul.custom-list-middle {
   .form-card {
     padding: 20px;
     margin-top: -6rem;
-    width: 90%;
+    width: 100%;
+    margin-bottom: 40px;
   }
 
   .btn-custom {
@@ -548,7 +562,8 @@ ul.custom-list-middle {
   }
   
   .label-max2 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: lighter;
   }
 
   .text-banner {
@@ -556,9 +571,8 @@ ul.custom-list-middle {
   }
 
   .content {
-    flex-grow: 1;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 230px;
+    padding-right: 230px;
   }
 
   ul.custom-list-top {
@@ -567,7 +581,7 @@ ul.custom-list-middle {
 
   .custom-list li{
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   ul.custom-list-middle {
@@ -585,29 +599,28 @@ ul.custom-list-middle {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1300px) {
+@media (max-width: 1300px) {
   h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     text-align: left;
   }
 
   h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     text-align: left;
   }
   
   h3 {
     font-size: 20px;
     margin-top: 15px;
-    text-align: left;
   }
   
   h4 {
     font-family: 'Circular Std Book', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     text-align: left;
   }
 
@@ -617,14 +630,18 @@ ul.custom-list-middle {
 
   .sub-text-title {
     margin-top: 2rem;
+    text-align: center;
   }
 
   .margin-subtitle {
     margin-left: -0px;
+    text-align: right;
+    margin-top: 10rem;
   }
 
   .margin-subtitle2 {
-    margin-top: 15px;
+    margin-top: 10rem;
+    margin-left: -10px;
   }
 
   iframe {
@@ -642,7 +659,8 @@ ul.custom-list-middle {
   .form-card {
     padding: 20px;
     margin-top: -70px;
-    width: 90%;
+    width: 100%;
+    margin-bottom: 40px;
   }
 
   .btn-custom {
@@ -677,7 +695,122 @@ ul.custom-list-middle {
 
   .custom-list li{
     text-align: left;
-    font-size: 18px;
+    font-size: .9rem;
+  }
+
+  ul.custom-list-top {
+    font-size: 15px;
+  }
+
+  ul.custom-list-middle {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  /*.form-card-middle {
+    visibility: hidden;
+    display: none;
+  }*/
+
+  .topic-side {
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  h4 {
+    font-family: 'Circular Std Book', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .sub-text-title {
+    margin-top: 1rem;
+  }
+
+  .margin-subtitle {
+    margin-left: -0px;
+  }
+
+  .margin-subtitle2 {
+    margin-top: 15px;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
+  .banner {
+    padding: 0 100px;
+  }
+
+  .banner2 {
+    padding: 0 100px;
+  }
+
+  .form-card {
+    padding: 20px;
+    margin-top: -70px;
+    width: 100%;
+  }
+
+  .btn-custom {
+    font-size: 14px;
+  }
+
+  .label-min {
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #76777a;
+    font-size: 0.7rem;
+  }
+
+  .label-max {
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .label-max2 {
+    font-size: .9rem;
+  }
+
+  .text-banner {
+    margin-top: -8rem;
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    flex-grow: 1;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .custom-list li{
+    text-align: left;
+    font-size: .9rem;
   }
 
   ul.custom-list-top {
@@ -780,7 +913,7 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: .8rem;
+    margin-top: -8rem;
   }
 
   .content {
@@ -791,7 +924,7 @@ ul.custom-list-middle {
 
   .custom-list li{
     text-align: left;
-    font-size: 18px;
+    font-size: .9rem;
   }
 
   ul.custom-list-top {
@@ -815,21 +948,20 @@ ul.custom-list-middle {
 
 @media (max-width: 480px) {
   h1 {
-    margin-left: 30px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
   }
   
   h2 {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
     margin-bottom: 2.5rem;
   }
   
   h3 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
   }
   
@@ -845,19 +977,20 @@ ul.custom-list-middle {
   }
 
   .sub-text-title {
-    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
   }
 
   .margin-subtitle {
-    margin-left: -0px;
+    margin-left: 15px;
   }
 
   .margin-subtitle2 {
-    margin-left: 0px;
+    margin-left: 15px;
   }
 
   .title-main {
-    margin-top: -1rem;
+    margin-left: 1rem;
   }
 
   .banner {
@@ -869,9 +1002,11 @@ ul.custom-list-middle {
   }
 
   .form-card {
+    margin-left: 25px;
     width: 100%;
     margin-top: -3rem;
     padding: 10px;
+    margin-bottom: -5px;
   }
 
   .form-control {
@@ -899,15 +1034,14 @@ ul.custom-list-middle {
   }
 
   .text-banner {
-    margin-top: -1rem;
+    margin-top: -8rem;
     padding: 10px;
     width: 100%;
   }
 
   .content {
-    flex-grow: 1;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
   }
 
@@ -922,22 +1056,6 @@ ul.custom-list-middle {
   .subtitle-blue3 {
     text-align: center;
   }
-
-  /*.form-card2 {
-    background-color: #e1dfde;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: -40px;
-    width: 90%;
-    height: auto;
-    margin-top: 1.5rem;
-  }*/
-
-  /*.form-card-middle {
-    visibility: visible;
-    display: block;
-  }*/
   
   .topic-side {
     margin-top: 2%;
